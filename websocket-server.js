@@ -8,7 +8,7 @@ const server = require("http").createServer(app);
 const wss = new WebSocket.Server({ server });
 
 const pubsub = new PubSub();
-const subscription = pubsub.subscription("potatoland-sub");
+const subscription = pubsub.subscription("socket-sub");
 
 let clients = new Set();
 
