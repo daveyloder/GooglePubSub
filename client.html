@@ -1,0 +1,20 @@
+<!-- client.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Live Feed</title>
+  </head>
+  <body>
+    <h2>Live Message Feed</h2>
+    <ul id="messages"></ul>
+
+    <script>
+      const ws = new WebSocket("ws://localhost:8080");
+      ws.onmessage = (event) => {
+        const li = document.createElement("li");
+        li.textContent = event.data;
+        document.getElementById("messages").appendChild(li);
+      };
+    </script>
+  </body>
+</html>
