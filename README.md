@@ -1,8 +1,8 @@
-# 🔔 Real-Time WebSocket Notifications with Google Cloud Pub/Sub
+# Real-Time WebSocket Notifications with Google Cloud Pub/Sub
 
 This project is a lightweight prototype inspired by Disney+ Hotstar's scalable real-time architecture. It uses **Google Cloud Pub/Sub**, **Node.js**, and **WebSockets** to simulate real-time messaging to web clients.
 
-## ✨ Features
+## Features
 
 - Publish messages to a Pub/Sub topic
 - WebSocket server pushes those messages to connected clients
