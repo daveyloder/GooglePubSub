@@ -24,6 +24,6 @@ This project is a lightweight prototype inspired by Disney+ Hotstar's scalable r
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/daveyloder/pubsub-realtime-demo.git
-cd pubsub-realtime-demo
+git clone https://github.com/daveyloder/GooglePubSub.git
+cd GooglePubSub
 ```
